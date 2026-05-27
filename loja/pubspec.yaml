@@ -1,35 +1,22 @@
-name: loja_online_pro
-description: Loja Online Profissional com Flutter, Dart e banco de dados SQLite. Projeto final de Desenvolvimento de Sistemas.
+name: visionverse
+description: VisionVerse - Loja de Séries com Ranking IMDb
+
 publish_to: 'none'
-version: 3.0.0+1
+
+version: 1.0.0+1
 
 environment:
-  sdk: '>=3.4.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  # Banco de dados local SQLite
-  sqflite: ^2.3.3+1
-  path: ^1.9.0
-
-  # Gerenciamento de estado
-  provider: ^6.1.2
-
-  # Ícones extras
-  cupertino_icons: ^1.0.8
-
-  # Formatação de moeda brasileira
-  intl: ^0.19.0
-
-  # Compartilhar dados
-  shared_preferences: ^2.3.2
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
